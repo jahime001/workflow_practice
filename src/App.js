@@ -1,13 +1,13 @@
 
 import './App.css';
-import Compliment from './Compliment';
+import Compliments from './Compliments';
 import Hello from './Hello';
 
 function App() {
   return (
     <>
       <Hello />
-      <Compliment />
+      <Compliments />
     </>
   )
   }
