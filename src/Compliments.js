@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Compliment() {
-    let data = [
+    const compliments = [
         "Good effort!",
         "What a fine sweater!",
         "I appreciate all of your opinions.",
@@ -42,6 +42,6 @@ export default function Compliment() {
     ];
 
   return (
-      <div><h1>{data[Math.floor(Math.random() * data.length)]}</h1></div>
+      <div><h1>{data[Math.floor(Math.random() * compliments.length)]}</h1></div>
   )
 }
